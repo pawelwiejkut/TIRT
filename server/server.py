@@ -30,7 +30,6 @@ def handler(clientsock,addr):
     title=RecognizeSong.recognizeThis()[1]
     output =Lyric.FindLyric(artist,title)
     clientsock.send(output)
-    Files =
     clientsock.close()
     print addr, "- closed connection" #log on console
 

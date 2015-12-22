@@ -1,4 +1,4 @@
-import LyricWiki_client
+import lyricWiki.LyricWiki_client
 
 def FindLyric(artist,title):
     soap = LyricWiki_client.LyricWikiBindingSOAP("http://lyrics.wikia.com/server.php")
